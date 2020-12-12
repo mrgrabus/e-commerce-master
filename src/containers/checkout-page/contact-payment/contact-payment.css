@@ -1,0 +1,37 @@
+.contact-payment-container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: #F5F7F6;
+
+}
+@media (max-width: 1024px){
+    .contact-payment-container{
+        width: 60%;
+    }
+}
+@media (max-width: 800px){
+    .contact-payment-container{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .contact-payment-container{
+        width: 100%;
+    }
+}
+@media (max-width: 500px){
+    .contact-payment-container{
+        width: 100%;
+    }
+}
+@media (max-width: 414px){
+    .contact-payment-container{
+        width: 100%;
+    }
+}
+@media (max-width: 375px){
+    .contact-payment-container{
+        width: 100%;
+    }
+}

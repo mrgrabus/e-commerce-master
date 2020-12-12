@@ -1,0 +1,50 @@
+.logo-container{
+    position: absolute;
+    left: 48%;
+    text-align: center;
+}
+.logo-image{
+    height: 70px;
+    width: 70px;
+}
+
+@media (max-width: 1024px){
+    .logo-container{
+        position: absolute;
+        left: 45%;
+    }
+}
+@media (max-width: 900px){
+    .logo-container{
+        position: absolute;
+        left: 45%;
+    }
+}
+@media (max-width: 768px){
+    .logo-container{
+        position: absolute;
+        left: 45%;
+    }
+}
+@media (max-width: 600px){
+    .logo-container{
+        position: static;
+    }
+}
+@media (max-width: 500px){
+    .logo-container{
+        position: static;
+    }
+}
+@media (max-width: 414px){
+    .logo-container{
+        position: static;
+    }
+}
+@media (max-width: 375px){
+    .logo-container{
+        position: static;
+    }
+}
+
+

@@ -1,0 +1,35 @@
+.woman-sale-container{
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 80%;
+}
+@media (min-width: 1920px){
+    .woman-sale-container{
+        width: 35%;
+        height: 350px;
+    }
+}
+@media (min-width: 1640px){
+    .woman-sale-container{
+        width: 36%;
+        height: 350px;
+    }
+}
+@media (max-width: 1200px){
+    .woman-sale-container{
+        width: 60%;
+    }
+}
+@media (max-width: 414px){
+    .woman-sale-container{
+        width: 50%;
+    }
+}
+@media (max-width: 375px){
+    .woman-sale-container{
+        width: 50%;
+    }
+    
+}

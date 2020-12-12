@@ -1,0 +1,48 @@
+.navbar-link{
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 15px;
+    
+}
+#sale{
+    color: red;
+}
+
+
+@media (max-width: 600px){
+    .navbar-link{
+        padding: 5px ;
+    }
+    #sale{
+        color: #000;
+    }
+   
+}
+@media (max-width: 500px){
+    .navbar-link{
+        padding: 5px ;
+    }
+    #sale{
+        color: #000;
+    }
+   
+}
+@media (max-width: 375px){
+    .navbar-link{
+        padding: 5px ;
+    }
+    #sale{
+        color: #000;
+    }
+   
+}
+@media (max-width: 414px){
+    .navbar-link{
+        padding: 5px ;
+    }
+    #sale{
+        color: #000;
+    }
+   
+}

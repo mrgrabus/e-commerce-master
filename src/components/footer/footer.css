@@ -1,0 +1,21 @@
+.footer-container{
+    width: 100%;
+    height: 70px;
+    background-color: #EEF0EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', 'sans-serif';
+    color: #D2D6D4;
+    font-weight: normal;
+    font-size: 14px;
+    bottom: 0;
+
+}
+@media (max-width: 414px){
+    .footer-container{
+        bottom: 0;
+        width: 100%;
+    }
+    
+}

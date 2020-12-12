@@ -1,0 +1,120 @@
+.category-page-container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+.category-headline{
+    text-align: center;
+    padding: 40px 0 0 0 ;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 24px;
+    font-weight: normal;
+}
+.product-cards-container{
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 80px 10px;
+    justify-content: center;
+}
+
+  
+/*RESPONSIVE DESIGN */
+
+@media (max-width: 1024px){
+    .product-cards-container{
+        margin: auto;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        grid-gap: 100px 20px;
+    }
+}
+
+
+@media (max-width: 900px){
+    .product-cards-container{
+        margin: auto;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        grid-gap: 100px 20px;
+    }
+}
+@media (max-width: 798px){
+    .product-cards-container{
+        margin: auto;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        grid-gap: 100px 0;
+    }
+}
+@media (max-width: 768px){
+    .product-cards-container{
+        margin: auto;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        grid-gap: 100px 0;
+    }
+}
+@media (max-width: 600px){
+    .category-headline{
+        border-bottom: 1px solid black;
+    }
+    .product-cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 414px){
+    .category-headline{
+        border-bottom: 1px solid black;
+    }
+    .product-cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 375px){
+    .category-headline{
+        border-bottom: 1px solid black;
+    }
+    .product-cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 320px){
+    .category-headline{
+        border-bottom: 1px solid black;
+    }
+    .product-cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+

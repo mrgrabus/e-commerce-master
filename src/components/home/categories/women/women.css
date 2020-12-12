@@ -1,0 +1,42 @@
+.women-container{
+    width: 48%;
+}
+
+
+@media (max-width: 800px){
+    .women-container{
+        width: 45%;
+        
+    }
+}
+@media (max-width: 700px){
+    .women-container{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 600px){
+    .women-container{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 500px){
+    .women-container{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 414px){
+    .women-container{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 375px){
+    .women-container{
+        width: 90%;
+        margin: auto;
+    }
+}

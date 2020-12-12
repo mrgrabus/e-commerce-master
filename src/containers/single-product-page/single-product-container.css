@@ -1,0 +1,10 @@
+.single-container-product{
+    width: 100%
+}
+
+@media (max-width: 600px){
+    .single-container-product{
+        width: 100%
+    }
+    
+}

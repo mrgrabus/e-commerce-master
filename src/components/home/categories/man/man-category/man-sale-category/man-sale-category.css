@@ -1,0 +1,42 @@
+.man-sale-container{
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    font-family: 'Inter' 'sans-serif';
+}
+@media (min-width: 1920px){
+    .man-sale-container{
+        width: 35%;
+        height: 350px;
+        top: 85%
+    }
+}
+@media (min-width: 1640px){
+    .man-sale-container{
+        width: 36%;
+        height: 350px;
+    }
+}
+@media (max-width: 1200px){
+    .man-sale-container{
+        width: 50%;
+        height: 350px;
+        top: 65%
+    }
+}
+@media (max-width: 414px){
+    .man-sale-container{
+        width: 50%;
+        height: 250px;
+        top: 60%
+    }
+}
+@media (max-width: 375px){
+    .man-sale-container{
+        width: 50%;
+        height: 250px;
+    }
+    
+}

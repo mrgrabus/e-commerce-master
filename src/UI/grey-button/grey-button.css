@@ -1,0 +1,43 @@
+.grey-button{
+    width: 315px;
+    height: 48px;
+    background-color: #595959;
+    color: #ffffff;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+}
+.grey-button:focus{
+    border: none;
+    outline: none;
+}
+#cart-button{
+    margin-top: 30px;
+}
+@media (max-width: 700px){
+    #cart-button{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 375px){
+    #continue{
+        position: absolute;
+        top: 85%;
+        left: 8%;
+        margin-top: 500px;
+       
+    }
+    #informationButton{
+        margin-left: 50px;
+        position: static;
+    }
+    #order-button{
+        position: absolute;
+        right: -8%;
+    }
+}

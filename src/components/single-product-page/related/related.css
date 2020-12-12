@@ -1,0 +1,105 @@
+.related-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+.related-item{
+    height: 350px;
+    width: 240px;
+    margin: 0 20px;
+
+
+}
+.related-container > p{
+    color: #999999;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 24px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+.related-main-image{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 700px){
+    .related-container{
+        display: flex;
+        flex-direction: row;
+        margin-top: -60%;
+        justify-content: space-evenly;
+    }
+    .related-container > p{
+        position: absolute;
+        top: -20%;
+
+        
+    }
+    .related-item{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 600px){
+    .related-container{
+        display: flex;
+        flex-direction: row;
+        margin-top: -60%;
+        justify-content: space-evenly;
+    }
+    .related-container > p{
+        position: absolute;
+        top: -20%;
+
+        
+    }
+    .related-item{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 500px){
+    .related-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -90%;
+        align-items: center;
+    }
+    .related-container > p{
+        position: static;
+        text-align: left;
+    }
+    .related-item{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 414px){
+    .related-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -90%;
+        align-items: center;
+    }
+    .related-container > p{
+        position: static;
+        text-align: left;
+    }
+    .related-item{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 375px){
+    .related-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -90%;
+        align-items: center;
+    }
+    .related-container > p{
+        position: static;
+        text-align: left;
+    }
+    .related-item{
+        margin-bottom: 15px;
+    }
+}

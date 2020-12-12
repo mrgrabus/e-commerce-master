@@ -1,0 +1,60 @@
+.woman-category-container{
+    height: 700px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    position: relative;
+}
+.image-container{
+    width: 100%;
+    height: 95%;
+    
+}
+.category-image{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 2000px){
+    .woman-category-container{
+        width: 100%;
+    }
+    #image-container{
+        width:100px;
+    }
+    
+}
+@media (max-width: 600px){
+    .woman-category-container{
+        width: 100%;
+    }
+    #image-container{
+        width:100px;
+    }
+    
+}
+@media (max-width: 500px){
+    .woman-category-container{
+        width: 100%;
+    }
+    .image-container{
+        width: 100%;
+        
+    }
+    #image-container{
+        width: 100%;
+    }
+    
+} 
+@media (max-width: 414px){
+    .woman-category-container{
+        width: 100%;
+    }
+    .image-container{
+        width: 100%;
+        
+    }
+    #image-container{
+        width: 100%;
+    }
+    
+} 

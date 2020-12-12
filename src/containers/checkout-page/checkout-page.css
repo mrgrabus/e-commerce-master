@@ -1,0 +1,20 @@
+.checkout-page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+.checkout-cont{
+    width: 40%;
+}
+@media (max-width: 700px){
+    .checkout-cont{
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .checkout-page-container{
+        height: auto;
+    }
+    
+}

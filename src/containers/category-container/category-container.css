@@ -1,0 +1,15 @@
+.category-statefull-container{
+    width: 100%; 
+    background-color: #F5F7F6;
+}
+
+@media (max-width: 900px){
+    .category-statefull-container{
+        width: 100%;
+    }
+}
+@media (max-width: 414px){
+    .category-statefull-container{
+        width: 100%;
+    }
+}

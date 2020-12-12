@@ -1,0 +1,17 @@
+.payment-cart-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+@media (min-width: 1920px){
+    .payment-cart-container{
+        width: 120%;
+    }
+}
+@media (max-width: 1024px){
+    .payment-cart-container{
+        width: 40%;
+    }
+}
