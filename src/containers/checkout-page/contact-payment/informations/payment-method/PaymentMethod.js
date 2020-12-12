@@ -55,7 +55,7 @@ class PaymentMethod extends Component{
 
         return (
             <div className='payment-container'>
-                <p className='payment-provider'>Payment provider</p>
+                <p>Payment provider</p>
             <div className='payment-method-container'>
                 <div>
                     <div className={!this.props.showConfirm ? 'payment-methods' : 'hide'}>
@@ -68,11 +68,7 @@ class PaymentMethod extends Component{
                                     id={elem.name}/>
                             </div>
                         ))}
-                        
-                    </div>
-                    
-                </div>
-                <div onClick={this.showCart}>
+                         <div onClick={this.showCart}>
                             <GreyButton 
                                 name='Continue to Confirm'
                                 buttonClick={this.props.setConfirm}
@@ -80,6 +76,12 @@ class PaymentMethod extends Component{
                                 style={style}/>
                                 
                         </div>
+                        
+                    </div>
+                   
+                    
+                </div>
+               
                 </div>
 
                 {this.props.showConfirm ? 
